@@ -1211,48 +1211,48 @@ body {
 }
 
 .dot-button1 {
-    left: 23vw;
-    top: 20vw;
+    left: 23.5vw;
+    top: 19vw;
 }
 
 .dot-button2 {
-    top: 20vw;
+    top: 19vw;
     left: 33vw;
 }
 
 .dot-button3 {
-    top: 19vw;
-    left: 44vw;
+    top: 18vw;
+    left: 43.5vw;
 }
 
 .dot-button4 {
-    top: 20vw;
-    left: 55vw;
+    top: 18.5vw;
+    left: 54vw;
 }
 
 .dot-button5 {
-    left: 66vw;
-    top: 18vw;
+    left: 66.5vw;
+    top: 17vw;
 }
 
 .dot-button6 {
     left: 24vw;
-    top: 25vw;
+    top: 24.5vw;
 }
 
 .dot-button7 {
     left: 33vw;
-    top: 25vw;
-}
-
-.dot-button8 {
-    left: 44vw;
     top: 23vw;
 }
 
+.dot-button8 {
+    left: 43.5vw;
+    top: 22vw;
+}
+
 .dot-button9 {
-    left: 54vw;
-    top: 25vw;
+    left: 54.5vw;
+    top: 23vw;
 }
 
 
