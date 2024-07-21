@@ -295,8 +295,8 @@ body {
 }
 
 .pink-token-txt-box .buy-token-btn span {
-    filter: drop-shadow(1px 1px 0px #151513);
-    -webkit-text-stroke: 0 #151513;
+    /* filter: drop-shadow(1px 1px 0px #151513);
+    -webkit-text-stroke: 0 #151513; */
     /* -webkit-text-stroke: 0.5px #151513;
     text-stroke: 0.5px #151513; */
 }
@@ -348,7 +348,6 @@ body {
     color: #fff;
     text-decoration: none;
     border: 2px solid #151513;
-    box-shadow: 2.4px 2.4px 0px 0px #151513;
     display: inline-flex;
     border-radius: 10px;
     align-items: center;
@@ -358,11 +357,24 @@ body {
     line-height: 28.54px;
     letter-spacing: 0.02em;
     margin-top: 30px;
+
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background: white;
+        color: #FD3FDD;
+        box-shadow: 3px 3px 0px 0px #151513;
+
+    }
 }
 
 .tokenomics-txt-box .buy-token-btn span {
     /* -webkit-text-stroke: 0.1px #151513;
     text-stroke: 0.1px #151513; */
+    /* 
+    filter: drop-shadow(1px 1px 0px #151513);
+    -webkit-text-stroke: 0 #151513; */
+
 }
 
 .graph-list-txt h3 {
@@ -446,15 +458,18 @@ body {
     letter-spacing: 0.02em;
     color: #fff;
     text-shadow: 1.3px 1.3px 0px #151513;
-    -webkit-text-stroke: 0.7px #151513;
-    box-shadow: 3px 3px 0px 0px #151513;
+    cursor: pointer;
+    user-select: none;
+    /* -webkit-text-stroke: 0.7px #151513;
+    box-shadow: 3px 3px 0px 0px #151513; */
 }
 
 .roadmap-tabs-btn .roadmap-tb-buttons.active-tab {
     background-color: #F3E302;
     color: #151513;
     text-shadow: 1px 1px 0px #ffffff;
-    -webkit-text-stroke: 0.5px #ffffff;
+    transition: 0.3s ease-in-out;
+    /* -webkit-text-stroke: 0.5px #ffffff; */
 }
 
 .roadmap-tabs-content {
@@ -556,6 +571,8 @@ body {
     border-radius: 20px;
     backdrop-filter: blur(15px);
     cursor: pointer;
+    overflow: hidden;
+
 }
 
 .vertical-accordion .verti-iner-tabs .tab-header {
@@ -717,7 +734,6 @@ body {
     color: #fff;
     text-decoration: none;
     border: 2px solid #151513;
-    box-shadow: 2.4px 2.4px 0px 0px #151513;
     display: inline-flex;
     border-radius: 10px;
     align-items: center;
@@ -727,11 +743,20 @@ body {
     line-height: 28.54px;
     letter-spacing: 0.02em;
     margin-top: 30px;
+
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background: white;
+        color: #FD3FDD;
+        box-shadow: 3px 3px 0px 0px #151513;
+
+    }
 }
 
 .copy-address-btn span {
-    -webkit-text-stroke: 0.3px #151513;
-    text-stroke: 0.3px #151513;
+    /* -webkit-text-stroke: 0.3px #151513;
+    text-stroke: 0.3px #151513; */
 }
 
 
@@ -791,7 +816,7 @@ body {
 
 .join-social-icons .social-icon-box {
     border-radius: 14px;
-    background-color: #fff;
+    background-color: white;
     width: 64px;
     height: 64px;
     min-width: 64px;
@@ -799,10 +824,15 @@ body {
     justify-content: center;
     align-items: center;
     transition: 0.4s ease-in-out;
+    border: 2px solid #151513;
+    cursor: pointer;
+    user-select: nonoe;
 }
 
 .join-social-icons .social-icon-box:hover {
-    transform: rotateY(180deg);
+    background-color: #FD3FDD;
+    box-shadow: 3px 3px 0px 0px #151513;
+    /* transform: rotateY(180deg); */
 }
 
 .join-social-icons .social-icon-box img {
@@ -839,7 +869,7 @@ body {
     color: #fff;
     text-decoration: none;
     border: 2px solid #151513;
-    box-shadow: 2.4px 2.4px 0px 0px #151513;
+    /* box-shadow: 2.4px 2.4px 0px 0px #151513; */
     display: inline-flex;
     border-radius: 10px;
     align-items: center;
@@ -849,11 +879,20 @@ body {
     line-height: 28.54px;
     letter-spacing: 0.02em;
     margin-top: 30px;
+
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background: white;
+        color: #FD3FDD;
+        box-shadow: 3px 3px 0px 0px #151513;
+
+    }
 }
 
 .join-community-box a span {
-    -webkit-text-stroke: 0.3px #151513;
-    text-stroke: 0.3px #151513;
+    /* -webkit-text-stroke: 0.3px #151513;
+    text-stroke: 0.3px #151513; */
 }
 
 
@@ -1942,6 +1981,7 @@ body {
     .buy-token-slide {
         padding-inline: 8%;
         justify-content: center;
+        align-items: center;
     }
 
     .roadmap-txt-section {
