@@ -1171,7 +1171,7 @@ body {
     position: relative;
     margin-inline: auto;
     top: 10px;
-    transform: translateY(12px);
+    transform: translateY(0px);
     visibility: hidden;
 
     z-index: 1;
@@ -1186,7 +1186,7 @@ body {
 }
 
 .dot-button:hover button.custom-button {
-    transform: translateY(-5px);
+    transform: translateY(10px);
     visibility: visible;
 }
 
